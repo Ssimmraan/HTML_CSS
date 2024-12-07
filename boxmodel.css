@@ -1,0 +1,144 @@
+#a {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: dashed;
+  border-width: 3px;
+}
+
+#b {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: dotted;
+  border-width: 3px;
+}
+
+#c {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: double;
+  border-width: 5px;
+}
+
+#d {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: groove;
+  border-width: 10px;
+}
+
+#e {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: inset;
+  border-width: 10px;
+}
+
+#f {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: outset;
+  border-width: 10px;
+}
+
+#g {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: ridge;
+  border-width: 10px;
+}
+
+#h {
+  width: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: inherit;
+  border-width: 10px;
+}
+
+#x {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: ridge;
+  border-width: 10px;
+}
+
+#y {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: groove;
+  border-width: 10px;
+}
+
+#z {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: inset;
+  border-width: 10px;
+}
+
+#x1 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-color: black;
+  border-style: outset;
+  border-width: 10px;
+}
+
+#q {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border: 4px solid black;
+}
+
+/* border-radius will always rotate in clockwise: border-top-left--->border-top-right-->border-bottom-right--->border-bottom-left */
+
+#s {
+  width: 300px;
+  height: 300px;
+  background-color: tomato;                                 
+  border: 3px solid black;
+  border-radius: 100px;
+  float: left;
+}
+
+#t {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(169, 255, 71);
+  border: 3px solid black;
+  border-radius: 100px 50px;
+  float: left;
+}
+
+#u {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(255, 71, 227);
+  border: 3px solid black;
+  border-radius: 100px 50px 200px;
+  float: left;
+}
+
+#v {
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  border: 3px solid black;
+  border-radius: 100px 50px 200px 30px;
+  float: left;
+}

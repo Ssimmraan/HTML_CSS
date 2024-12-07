@@ -1,0 +1,6 @@
+body {
+  background-image: url(./5fc887567d8ffafb74c38445851f8305.png),url(./c744150a1bd4e8214ace756672af5cb1.png),url(./bird-8788491_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px,500px,100%;
+  background-position: 100px 500px, 300px 0px, 0px 0px;
+}

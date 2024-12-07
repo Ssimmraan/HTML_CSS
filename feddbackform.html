@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+</head>
+<body>
+  <center>
+    <fieldset style="width: max-content;">
+      <h1>My Feedback Form</h1>
+      <form action="./submit.html">
+        <ul>
+          <li>
+            <label for="">Name: <sup style="color: red;">*</sup></label>
+            <input type="text" required></li>
+            <li>
+              <label for="">Email: <sup style="color: red;">*</sup></label>
+              <input type="email" required></li>
+            <li>
+              <label for="">Password: <sup style="color: red;">*</sup></label>
+              <input type="password" required minlength="8" maxlength="10">
+            </li>
+            <li>Please check all the emotions that apply to you:</li>
+            <ul>
+              <li>
+                <label for="">Angry</label>
+                <input type="checkbox">
+              </li>
+              <li>
+                <label for="">Sad</label>
+                <input type="checkbox">
+              </li>
+              <li>
+                <label for="">Happy</label>
+                <input type="checkbox">
+              </li>
+              <li>
+                <label for="">Ambivalent</label>
+                <input type="checkbox">
+              </li>
+            </ul>
+            <li>How satisfied were you with our service?</li>
+            <ul>
+              <li>
+                <label for=""> Very satisfied</label>
+                <input type="radio">
+              </li>
+              <li>
+                <label for="">Satisfied</label>
+                <input type="radio">
+              </li>
+              <li>
+                <label for="">Didn't Care</label>
+                <input type="radio">
+              </li>
+              <li>
+                <label for="">Dissatisfied</label>
+                <input type="radio">
+              </li>
+              <li>
+                <label for="">Very dissatisfied</label>
+                <input type="radio">
+              </li>
+            </ul>
+            <li>Further comments: 
+              <textarea name="" id="" placeholder="enter comments here........"></textarea>
+            </li>
+            <li>Bio photo:
+              <input type="file">
+            </li>
+            <li>Location visited:
+              <select name="" id="">
+                <option value="">Select locations</option>
+                <option value="">Karnataka</option>
+                <option value="">West Bengal</option>
+                <option value="">Assam</option>
+                <option value="">Odisha</option>
+                <option value="">Kerala</option>
+              </select>
+            </li>
+        </ul>
+        <button>Submit</button>
+      </form>
+    </fieldset>
+  </center>
+</body>
+</html>

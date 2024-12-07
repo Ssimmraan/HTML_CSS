@@ -1,0 +1,40 @@
+#a {
+
+  width: 200px;
+  height: 300px;
+  background-color: greenyellow;
+  border-radius: 200px 0px;
+  
+
+}
+
+#b {
+
+  width: 400px;
+  height: 600px;
+  background-color: rgba(210, 48, 33, 0.764);
+  border-radius: 20px 80px;
+
+}
+
+#c {
+
+  width: 400px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 400px;
+  
+}
+
+input {
+
+  background-color: rgb(220, 156, 195); 
+  color: black;
+
+}
+
+button {
+
+  background-color: grey;
+  color: black;
+}

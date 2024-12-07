@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <fieldset style="width: 900px;">
+    <legend style="text-align: center;">Personal Information</legend>
+    <form action="./result.html">
+      <label>Enter Name: <sup style="color: red;">*</sup></label>
+      <input type="text" required>
+      <br><br>
+      <label>Enter Email: <sup style="color: red;">*</sup></label>
+      <input type="email" required>
+      <br><br>
+      <label>Enter Age: <sup style="color: red;">*</sup></label>
+      <input type="number" required max="30" min="18">
+      <br><br>
+      <label>Enter Phone: <sup style="color: red;">*</sup></label>
+      <input type="tel" required minlength="10" maxlength="10" pattern="[6-9]{1}[0-9]{9}">
+      <br><br>
+      <label>Enter DOB: <sup style="color: red;">*</sup></label>
+      <input type="date" required min="2000-01-01" max="2005-12-31">
+      <br><br>
+      <label>Search: <sup style="color: red;">*</sup></label>
+      <input type="search" required>
+      <br><br>
+      <label>Enter Password: <sup style="color: red;">*</sup></label>
+      <input type="password" required minlength="5" maxlength="10">
+      <br><br>
+      <label>Choose Gender:</label>
+      <br><br>
+      <label>Male</label> <input type="radio" name="a">
+      <br>
+      <label>Female</label> <input type="radio" name="a">
+      <br>
+      <label>Others</label> <input type="radio" name="a">
+      <br><br>
+      <label>Choose Skills:</label>
+      <br><br>
+      <label>Java</label> <input type="checkbox">
+      <br>
+      <label>SQL</label> <input type="checkbox" checked required>
+      <br>
+      <label>WebTech</label> <input type="checkbox">
+      <br>
+      <label>Python</label> <input type="checkbox">
+      <br>
+      <label>MERN</label> <input type="checkbox">
+      <br>
+      <label>React</label> <input type="checkbox">
+      <br><br><br><br>
+      <button>Submit</button>
+    </form>
+  </fieldset>
+
+  </form>
+</body>
+</html>

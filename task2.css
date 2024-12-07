@@ -1,0 +1,17 @@
+#a {
+  width: 100px;
+  height: 200px;
+  background-color: rgb(191, 139, 26);
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  place-items: center;
+
+}
+
+#b {
+  width: 200px;
+  height: 350px;
+  background-color: palevioletred;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
